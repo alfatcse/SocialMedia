@@ -4,7 +4,7 @@ import { RouterProvider } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div className="max-w-6xl mx-auto">
      <RouterProvider router={router}></RouterProvider>
     </div>
   );
